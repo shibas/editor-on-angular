@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import './rxjs-extensions';
 
 import { AppComponent } from './app.component';
+import { QuillComponent } from './components/quill/quill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    QuillComponent
   ],
   imports: [
     BrowserModule,
