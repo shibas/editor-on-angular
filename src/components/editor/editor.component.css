@@ -1,0 +1,28 @@
+div.main-area {
+    width: 95%;
+}
+
+div#editor {
+    height: 100px;
+}
+
+div#toolbar {
+    width: 100%;
+}
+
+div#toolbar button {
+    float: right;
+}
+
+button.submit-button {
+    float: right;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 30px;
+    margin: 10px 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
